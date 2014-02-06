@@ -1,0 +1,29 @@
+<style>
+  .rows {
+    clear: both;
+  }
+
+  .cells {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border: 5px solid blue;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    color: blue;
+  }
+
+  .x {
+    background: blue;
+  }
+
+  .o {
+    background: red;
+  }
+
+  .green {
+    background: green;
+  }
+</style>

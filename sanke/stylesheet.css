@@ -1,0 +1,29 @@
+  .row {
+    clear: both;
+  }
+
+  .board {
+    width: 700px;
+    margin: 50px auto;
+  }
+
+  .cell {
+    float: left;
+    width: 7px;
+    height: 7px;
+/*    width: 5px;
+    height: 5px;*/
+    background: pink;
+/*    border: 1px solid grey;*/
+  }
+
+  .snake {
+    background: green;
+/*    border: 1px solid green;*/
+  }
+
+  h1 {
+    font-family: sans-serif;
+    color: blue;
+  }
+

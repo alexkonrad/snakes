@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Snake</title>
+
+  <link rel="stylesheet"
+        href="stylesheet.css"
+        type="text/css">
+
+  <script type="text/javascript"
+          src="underscore.js"></script>
+
+  <script type="text/javascript"
+          src="jquery-1.9.1.js"></script>
+
+  <script type="text/javascript"
+           src="keymaster.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <div class="board">
+  </div>
+
+
+
+</body>
+
+<script>
+  _.times(100, function(i) {
+    var newRow = "<div class=\"row\" id=\"" + i + "\"></div>"
+    $('.board').append(newRow);
+    _.times(100, function(j) {
+      var newDiv = "<div class=\"cell\" id=\"" + i + "x" + j + "\"></div>";
+      var rowID = "#" + i;
+      $(rowID).append(newDiv);
+    });
+  });
+</script>
+
+<script type = "text/javascript"
+        src="snake.js"></script>
+
+<script type="text/javascript"
+        src="snake_ui.js"></script>
+</html>
